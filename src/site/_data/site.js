@@ -1,6 +1,6 @@
 module.exports = {
-    rootUrl: 'https://sonnet.io',
+    rootUrl: 'https://sonnet1.io',
     buildTime: new Date(),
-    title: 'Rafał Pastuszak',
-    description: `Rafał Pastuszak is an experienced startup consultant specialised in web, mobile, emerging technologies and human-centred design. Click to find out more.`,
+    title: 'Katherine Lee',
+    description: `This is a test to see if it works.`,
 }

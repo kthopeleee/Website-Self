@@ -3,17 +3,19 @@
  */
 const favourites = [
     {
-        title: 'Sit.',
-        heroURL: './hero-sit.png',
-        demoURL: 'https://sit.sonnet.io',
+        title: 'Social Interaction Lab',
+        heroURL: './Social-Interaction.png',
+        demoURL: 'https://socialinteractionlab.psychology.barnard.edu/',
         isFavourite: true,
         date: '2022-12-25',
         content: `
-Sit down and do *nothing*.
-
-We spend so much time building things that steal attention &amp; extract value from users. [Sit.](https://sit.sonnet.io) does the opposite: it gives you back your time. 
-
-Please share with a friend who needs to sit the fuck down or enjoy the experience yourself. 
+        Our research focuses on understanding human social interactions. We explore how individuals think, feel, and behave in social contexts and how their experiences are influenced by their interaction partners. 
+        
+        Our studies investigate changes in experiences and behaviors within single interactions and across repeated interactions with the same partner. 
+        
+        We use diverse methodologies, including experiments, behavioral observation, psychophysiology, and experience sampling, to study social interactions both in the lab and in naturalistic settings. 
+        
+        Additionally, we examine physiological synchrony in interactions, investigating its relationship with behaviors, subjective experiences, and interpersonal accuracy.
         `,
     },
     {
@@ -49,24 +51,41 @@ Please share with a friend who needs to sit the fuck down or enjoy the experienc
  */
 const remainingProjects = [
     {
-        title: 'Days',
-        date: '2023-07-03',
-        demoURL: 'https://days.sonnet.io',
+        title: 'Peng Lab',
+        date: '2023-08-03',
+        demoURL: 'https://www.thepenglab.org/',
         content: `
-        My life in days, inspired by Buster Benson's [Life in Weeks](https://busterbenson.com/life-in-weeks).
+        Using OpenCV, Matlab to created CNNs, our team developed an audio based convultion neural network; 
 
-        Feel free to fork it, but please be gentle, it's still the first iteration.
+        A predictive model to identify if rats were in REM, Awake, and Light Sleep. 
+
+        I also worked on developing efficent piplines in projects Reactivation of Cells in the Mice with Engram-specific Deletion of the de novo DNA Methyltransferase Dnmt3a
         `,
-        links: [{ type: 'source', url: 'https://github.com/paprikka/days' }],
+        links: [{ type: 'article', url: 'https://drive.google.com/file/d/1XKiDd2PmV56sKWp85uzfitRkDVXQcwRo/view?usp=sharing' }],
     },
     {
-        title: 'Tip of the Tongue',
-        date: '2023-07-03',
-        demoURL: 'https://tip.potato.horse',
-        content: `Tip. is a parahippocampal gyrus massage tool.
-
-You describe the thing you can't name and it spits out a [guess](https://twitter.com/rafalpast/status/1676517556159492097?s=20).
+        title: 'Columbia Analytica',
+        date: '2024-07-03',
+        demoURL: 'https://www.columbiapolicyinstitute.org/',
+        content: `Aim to improve transparency of data between the students and the administration of Columbia University.
+        
+        We are still in the workss of developing the [website](https://www.columbiapolicyinstitute.org/); this is our progress so far
         `,
+        links: [
+            { type: 'source', url: 'https://github.com/Columbia-Policy-Institute/Columbia-Analytica' },
+        ],
+    },
+    {
+        title: 'Soul Scribe',
+        date: '2024-01-20',
+        demoURL: 'https://devpost.com/software/soul-scribe',
+        content: `
+        Aimed at reducing people's feelings of isolation and the stigma surrounding mental health. Often, individuals may feel compelled to hide their emotions, leading to increased loneliness and difficulty in seeking support. 
+        
+        SoulScribe is a platform where users can anonymously share their feelings with their community.`,
+        links: [
+            { type: 'source', url: 'https://github.com/hegstadjosh/devfest-24' },
+        ],
     },
     {
         title: 'Lemonade',
