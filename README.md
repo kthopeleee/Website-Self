@@ -1,5 +1,5 @@
 ![School of fish janitor](./logo.png)
 
-Me personal website and blog code live here.
+This is my personal portfolio, 
 
-It started as a fork of [eleventyone](https://github.com/philhawksworth/eleventyone) but most of the features of the original have been stripped.
+It is a fork of [eleventyone](https://github.com/philhawksworth/eleventyone) and [paprikka](https://github.com/paprikka)
